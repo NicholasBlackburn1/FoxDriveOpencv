@@ -7,10 +7,13 @@ import cv2
 def main():
     logger.info("starting Computer Rec....")
 
+    logger.info("getting Opencv info....")
     logger.PipeLine_Data("opencv version "+cv2.__version__)
-
     logger.PipeLine_Data("opencv build info "+ cv2.getBuildInformation())
 
+    wge
+
+    
 
 
 
