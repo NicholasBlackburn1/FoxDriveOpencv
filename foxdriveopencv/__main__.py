@@ -9,6 +9,8 @@ def main():
 
     logger.PipeLine_Data("opencv version "+cv2.__version__)
 
+    logger.PipeLine_Data("opencv build info "+ cv2.getBuildInformation())
+
 
 
 
